@@ -1,0 +1,8 @@
+<div class="card">
+    <img class="card-img-top mb-1" src="{{image?.url}}" alt="Image">
+    <div class="hide">
+        <a [href]="image?.author.url" class="btn btn-info btn-sm" role="button" disabled>Author {{image?.author?.name}}</a>
+        <input type="text" [(ngModel)]="value" placeholder="Add to a category"/>
+        <a role="button" class="btn btn-primary btn-sm" (click)="saveImage($event)">Save</a>
+    </div>
+</div>

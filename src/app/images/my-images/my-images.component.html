@@ -1,0 +1,8 @@
+<div class="container">
+    <div class="card-deck">
+        <div *ngFor="let myImage of (myImages | async)">
+            <h2 > {{myImage.id}} </h2>
+                <app-category-images [images]="myImage.images"></app-category-images>
+        </div>
+    </div>
+</div>

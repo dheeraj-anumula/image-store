@@ -1,6 +1,37 @@
+# Coding Challenge :: Images Search App
+* Implement an Interface that allows users to to search for images using any FREE images search API such as:
+	* Unsplash
+* The results updates live as the user type into the search box:
+* Each image display some information when hover:
+		* Author Name
+		* A button to save the image to the user’s favorite page.
+				* Input the category
+
+* On the Favorite page:
+		* Display all selected images
+
 # ImageStore
 
+
+* Most of the features of the Angular are covered in this challenge such as Dependency Injection, Routing,          Data-binding, Http, Observables, RxJs and many more
+
+* Utilises ngrx/store and ngrx/effect for Redux state management
+
+* It uses Bootstrap for CSS
+
+
+### Requirements
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+
+
+* Use any version of Angular
+* Use `ngrx/store` for state management
+* Use `ngrx/effect` for handling side effects
+* Use any CSS preprocessor of your choice
+* The project should include a README file
+
+#dimebox/interview/front-end/tests
 
 ## Development server
 

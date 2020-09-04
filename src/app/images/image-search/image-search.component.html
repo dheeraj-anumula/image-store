@@ -1,0 +1,19 @@
+<div class='container'>
+    <div>
+      <h2>Unsplash Search</h2>
+    </div>
+    <div class="row mb-5">
+      <div class="input-group input-group-lg col-md-12">
+        <app-search-box
+           (triggerSearch)="setAllImageState($event)">
+        </app-search-box>
+      </div>
+    </div>
+
+    <div class="card-deck">
+      <app-search-result
+        *ngFor="let image of (images | async)"
+        [image]="image">
+      </app-search-result>
+    </div>
+</div>
